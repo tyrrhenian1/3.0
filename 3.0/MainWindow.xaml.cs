@@ -37,9 +37,8 @@ namespace _3._0
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Random rnd = new Random();
-            int z = rnd.Next(6, 11);
-            int x = rnd.Next(6, 11);
-            int c = rnd.Next(6, 11);
+            int z, x, c;
+            z = x = c = 1;
             int p = rnd.Next(100);
             while (z == x || x == c || z == c)
             {
@@ -49,7 +48,7 @@ namespace _3._0
             }
             if (i > z + x + c)
             {
-                Result.Text = "Вы выиграли"+z+x+c;
+                Result.Text = "Вы выиграли";
             }
             else Result.Text = "Вы проиграли,шанс на победу "+p+"%";
 
