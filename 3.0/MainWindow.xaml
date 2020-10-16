@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3._0"
         mc:Ignorable="d"
-        Title="MainWindow" Height="263.022" Width="314.214">
+        Title="MainWindow" Height="399.822" Width="314.214" Loaded="Window_Loaded">
     <Grid Margin="26,10,24,1">
-        <Button Content="Играть" HorizontalAlignment="Left" Margin="69,107,0,0" VerticalAlignment="Top" Width="111" Click="Button_Click" RenderTransformOrigin="0.508,1.341" Height="39"/>
+        <Button x:Name="Ok" Content="Играть" HorizontalAlignment="Left" Margin="69,168,0,0" VerticalAlignment="Top" Width="111" RenderTransformOrigin="0.508,1.341" Height="39" Click="Ok_Click"/>
 
-        <TextBlock x:Name="Result" HorizontalAlignment="Left" Margin="42,160,0,17" TextWrapping="Wrap" Text="" Width="165" RenderTransformOrigin="0.496,1.61" TextAlignment="Center"/>
+        <TextBlock x:Name="Result" HorizontalAlignment="Left" Margin="42,223,0,46" TextWrapping="Wrap" Text="" Width="165" RenderTransformOrigin="0.496,1.61" TextAlignment="Center"/>
         <RadioButton GroupName="Player" x:Name="rb1" Content="" HorizontalAlignment="Left" Margin="18,41,0,0" VerticalAlignment="Top" Checked="rb1_Checked"/>
         <RadioButton GroupName="Player" x:Name="rb2" Content="" HorizontalAlignment="Left" Margin="18,74,0,0" VerticalAlignment="Top" Checked="rb2_Checked"/>
         <TextBlock HorizontalAlignment="Left" Margin="42,41,0,0" TextWrapping="Wrap" Text="6  7  8" VerticalAlignment="Top" Background="Aquamarine" TextAlignment="Center"/>
@@ -23,6 +23,15 @@
         <RadioButton GroupName="Player" x:Name="rb6" Content="" HorizontalAlignment="Left" Margin="164,74,0,0" VerticalAlignment="Top" Checked="rb6_Checked"/>
         <TextBlock HorizontalAlignment="Left" Margin="188,73,0,0" TextWrapping="Wrap" Text="AutoLose" VerticalAlignment="Top" TextAlignment="Center" Background="Salmon"/>
         <TextBlock HorizontalAlignment="Left" Margin="69,10,0,0" TextWrapping="Wrap" Text="Выберите набор чисел" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="41,102,0,0" TextWrapping="Wrap" Text="Введите свои значения от 6 до 10" VerticalAlignment="Top"/>
+        <TextBox x:Name="Sv1" HorizontalAlignment="Left" Height="15" Margin="42,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33"/>
+        <CheckBox x:Name="Ch1" Content="" HorizontalAlignment="Left" Margin="18,133,0,0" VerticalAlignment="Top" Click="Ch1_Click"/>
+        <TextBox x:Name="Sv2" HorizontalAlignment="Left" Height="15" Margin="114,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33"/>
+        <CheckBox x:Name="Ch2" Content="" HorizontalAlignment="Left" Margin="90,133,0,0" VerticalAlignment="Top" Click="Ch2_Click"/>
+        <TextBox x:Name="Sv3" HorizontalAlignment="Left" Height="15" Margin="188,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33"/>
+        <CheckBox x:Name="Ch3" Content="" HorizontalAlignment="Left" Margin="164,133,0,0" VerticalAlignment="Top" Click="Ch3_Click"/>
+        <RadioButton GroupName="Choose" x:Name="Vi1" Content="" HorizontalAlignment="Left" Margin="51,11,0,0" VerticalAlignment="Top" Click="Vi1_Click" />
+        <RadioButton GroupName="Choose" x:Name="Vi2" Content="" HorizontalAlignment="Left" Margin="22,103,0,0" VerticalAlignment="Top"  Click="Vi2_Click"/>
 
     </Grid>
 </Window>
