@@ -1,0 +1,28 @@
+﻿<Window x:Class="_3._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3._0"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="263.022" Width="314.214">
+    <Grid Margin="26,10,24,1">
+        <Button Content="Играть" HorizontalAlignment="Left" Margin="69,107,0,0" VerticalAlignment="Top" Width="111" Click="Button_Click" RenderTransformOrigin="0.508,1.341" Height="39"/>
+
+        <TextBlock x:Name="Result" HorizontalAlignment="Left" Margin="42,160,0,17" TextWrapping="Wrap" Text="" Width="165" RenderTransformOrigin="0.496,1.61" TextAlignment="Center"/>
+        <RadioButton GroupName="Player" x:Name="rb1" Content="" HorizontalAlignment="Left" Margin="18,41,0,0" VerticalAlignment="Top" Checked="rb1_Checked"/>
+        <RadioButton GroupName="Player" x:Name="rb2" Content="" HorizontalAlignment="Left" Margin="18,74,0,0" VerticalAlignment="Top" Checked="rb2_Checked"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,41,0,0" TextWrapping="Wrap" Text="6  7  8" VerticalAlignment="Top" Background="Aquamarine" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,74,0,0" TextWrapping="Wrap" Text="7  8  9" VerticalAlignment="Top" TextAlignment="Center" Background="Bisque"/>
+        <TextBlock HorizontalAlignment="Left" Margin="112,40,0,0" TextWrapping="Wrap" Text="6  9  10" VerticalAlignment="Top" TextAlignment="Center" Background="LightYellow"/>
+        <RadioButton GroupName="Player" x:Name="rb3" Content="" HorizontalAlignment="Left" Margin="90,41,0,0" VerticalAlignment="Top" Checked="rb3_Checked"/>
+        <RadioButton GroupName="Player" x:Name="rb4" Content="" HorizontalAlignment="Left" Margin="90,74,0,0" VerticalAlignment="Top" Checked="rb4_Checked"/>
+        <TextBlock HorizontalAlignment="Left" Margin="112,73,0,0" TextWrapping="Wrap" Text="6  9  8" VerticalAlignment="Top" TextAlignment="Center" Background="Moccasin" Width="39"/>
+        <RadioButton GroupName="Player" x:Name="rb5" Content="" HorizontalAlignment="Left" Margin="164,41,0,0" VerticalAlignment="Top" Checked="rb5_Checked"/>
+        <TextBlock HorizontalAlignment="Left" Margin="188,40,0,0" TextWrapping="Wrap" Text="7  6  10" VerticalAlignment="Top" TextAlignment="Center" Background="Coral"/>
+        <RadioButton GroupName="Player" x:Name="rb6" Content="" HorizontalAlignment="Left" Margin="164,74,0,0" VerticalAlignment="Top" Checked="rb6_Checked"/>
+        <TextBlock HorizontalAlignment="Left" Margin="188,73,0,0" TextWrapping="Wrap" Text="AutoLose" VerticalAlignment="Top" TextAlignment="Center" Background="Salmon"/>
+        <TextBlock HorizontalAlignment="Left" Margin="69,10,0,0" TextWrapping="Wrap" Text="Выберите набор чисел" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
