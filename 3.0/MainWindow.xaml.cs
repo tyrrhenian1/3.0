@@ -97,6 +97,8 @@ namespace _3._0
             {
                 Ch1.IsChecked = Ch2.IsChecked = Ch3.IsChecked = false;
                 rb1.IsEnabled = rb2.IsEnabled = rb3.IsEnabled = rb4.IsEnabled = rb5.IsEnabled = rb6.IsEnabled = true;
+                Ch1.IsEnabled = Ch2.IsEnabled = Ch3.IsEnabled = false;
+                Sv1.IsEnabled = Sv2.IsEnabled = Sv3.IsEnabled = false;
             }
 
         }
@@ -172,6 +174,5 @@ namespace _3._0
                 MessageBox.Show(ex.Message);
             }
             }
-
-        }
+    }
     }

@@ -30,7 +30,7 @@
         <CheckBox x:Name="Ch2" Content="" HorizontalAlignment="Left" Margin="90,133,0,0" VerticalAlignment="Top" Click="Ch2_Click"/>
         <TextBox x:Name="Sv3" HorizontalAlignment="Left" Height="15" Margin="188,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33"/>
         <CheckBox x:Name="Ch3" Content="" HorizontalAlignment="Left" Margin="164,133,0,0" VerticalAlignment="Top" Click="Ch3_Click"/>
-        <RadioButton GroupName="Choose" x:Name="Vi1" Content="" HorizontalAlignment="Left" Margin="51,11,0,0" VerticalAlignment="Top" Click="Vi1_Click" />
+        <RadioButton GroupName="Choose" x:Name="Vi1" Content="" HorizontalAlignment="Left" Margin="51,11,0,0" VerticalAlignment="Top" Click="Vi1_Click"/>
         <RadioButton GroupName="Choose" x:Name="Vi2" Content="" HorizontalAlignment="Left" Margin="22,103,0,0" VerticalAlignment="Top"  Click="Vi2_Click"/>
 
     </Grid>
